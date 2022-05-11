@@ -44,12 +44,14 @@
 
     </a-marker>
 
-
-    <a-marker preset="pattern" type="pattern" url ="./assets/pattern-dpsd17053.patt">
-        <a-text text="value: KOURTIDIS " rotation="-90 0 0" position="0.6 0 0" color="#3A0E23"></a-text>
-        <a-text text="value: PANAGIOTIS " rotation="-90 0 0" position="1.5 0.5 0" color="#9FE2BF"></a-text>
-        <a-image src="./assets/PANOS.jpg" rotation="90 180 0"> </a-image>
-    </a-marker>
+    <a-marker-camera type='pattern' url='assets/pattern-dpsd17053.patt'>
+        
+        <a-entity rotation="-90 0 0" position="0 0 0" >
+          <a-text value="PANOS" align="center" position="0 -0.85 0" side="double"></a-text>
+          <a-text value="KOURTIDIS" position="0 -0.65 0" align="center" side="double"></a-text>
+          <a-image src="assets/PANOS.jpg" position="0 0 0" side="double" width="1" height="1"></a-image>
+        </a-entity>
+        </a-marker-camera>
 
     
 		
