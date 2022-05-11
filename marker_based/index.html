@@ -14,11 +14,11 @@
     
 
     <body style="margin : 0px; overflow: hidden;">
-        <a-scene
-    vr-mode-ui="enabled: false;"
-    renderer="logarithmicDepthBuffer: true;"
-    embedded
-    arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;">
+        <a-scene 
+        vr-mode-ui="enabled: false;"
+        renderer="logarithmicDepthBuffer: true;"
+        embedded
+        arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;">
 	<a-entity id="annyang" annyang-speech-recognition></a-entity>
             <a-entity id="switch" speech-command__start="command: start; type: attribute; attribute: visible; targetElement: #snow; value: true;"
                       speech-command__stop="command: stop; type: attribute; attribute: visible; targetElement: #snow; value: false;">
