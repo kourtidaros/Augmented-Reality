@@ -50,7 +50,31 @@
         <a-image src="./assets/PANOS.jpg" rotation="90 180 0"></a-image>
     </a-marker>
 
-    
+    <a-assets>
+        <a-asset-item id="Hydrogen" src="./assets/cube.gltf"></a-asset-item> 
+       </a-assets>
+
+       <a-marker id="pattern" type="pattern" url="./assets/pattern-card-H.patt">
+        <a-image src="assets/card-H.png" rotation="-90 0 0" width: 1.2; height: 1.2></a-image>
+        <a-entity position="0 1 0" rotation="0 90 0" scale=" 0.2 0.2 0.2"
+        gltf-model="#Hydrogen"
+        animation__rotate = "property: rotation; dur: 5000; easing: linear; dir: normal; from:0 0 0; to: 360 0 0; loop: true;" >
+
+        </a-entity>
+    </a-marker>
+
+    <a-assets>
+        <a-asset-item id="Oxygen" src="./assets/sphere.gltf"></a-asset-item> 
+       </a-assets>
+
+       <a-marker id="oxygen" type="pattern" url="./assets/pattern-card-O.patt">
+        <a-image src="assets/card-O.png" rotation="-90 0 0" width: 1.5; height: 1.5></a-image>
+        <a-entity position="0 1 0" rotation="0 90 0" scale="0.2 0.2 0.2"
+        gltf-model="#Oxygen"
+        animation__rotate = "property: rotation; dur: 5000; easing: linear; dir: normal; from:0 0 0; to: 0 0 360; loop: true;" >
+
+        </a-entity>
+    </a-marker>
 		
 		
         
