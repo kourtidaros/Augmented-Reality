@@ -30,7 +30,7 @@
                     </a-entity>
                     <a-entity id="snow" position="0 6 -15" particle-system="color: #ff9aff"></a-entity>
   >
-    <!--<a-marker preset="hiro">
+    <a-marker preset="hiro">
                    <a-entity id="box" geometry="primitive: box; width: 0.2; depth: 0.2; height: 0.2" position="0 0 0"
                        material="color: #0000ff">
                    </a-entity>
@@ -42,44 +42,41 @@
                   
                         </a-entity>
 
-    </a-marker>-->
-
-    <!--<a-marker preset="pattern" type="pattern" url ="./a-assets/pattern-dpsd-1.patt">-->
-        <a-marker preset="hiro">
-        <a-text value= " panagiotis " rotation="-90 0 0" position="-0.5 -0.5 -0.7" color="#db16c8"></a-text>
-        <a-text value= " kourtidaros"  rotation="-90 0 0" position="-0.7 0.3 0.6" color="#1be3dc"></a-text>
-        <a-image src="./assets/PANOS.jpg" rotation="90 180 0"></a-image>
     </a-marker>
+<!--2o paradoteo----------------------------------------------------------------------------------------------------------------------------->
+
+    <a-marker preset="pattern" type="pattern" url ="./assets/pattern-dpsd-1.patt">
+        <a-text text="value: panos" rotation="-90 0 0" position="0.5 0.4 0.7" color="#33ACFF"></a-text>
+        <a-image src="./assets/PANOS.png" rotation="90 180 0"></a-image>
+        <a-text text="value: kourtidaros"  rotation="-90 0 0" position="0.5 0.3 0.6" color="#33ACFF"></a-text>
+        
+    </a-marker>
+
 
     <a-assets>
         <a-asset-item id="Hydrogen" src="./assets/cube.gltf"></a-asset-item> 
        </a-assets>
-
-       <a-marker id="pattern" type="pattern" url="./assets/pattern-card-H.patt">
-        <a-image src="assets/card-H.png" rotation="-90 0 0" width: 1.2; height: 1.2></a-image>
-        <a-entity position="0 1 0" rotation="0 90 0" scale=" 0.2 0.2 0.2"
+       <a-marker id="hydro" type="pattern" url="./assets/pattern-card-H.patt">
+        <a-image src="./assets/pattern-card-H.png" rotation="-90 0 0" width: 1.2; height: 1.2></a-image>
+        <a-entity position="0 1 0" rotation="0 90 0" scale="0.1 0.1 0.1"
         gltf-model="#Hydrogen"
-        animation__rotate = "property: rotation; dur: 5000; easing: linear; dir: normal; from:0 0 0; to: 360 0 0; loop: true;" >
+        animation__rotate = "property: rotation; dur: 10000; easing: linear; dir: normal; from:0 0 0; to: 360 0 0; loop: true;" >
 
         </a-entity>
     </a-marker>
-
     <a-assets>
-        <a-asset-item id="Oxygen" src="./assets/sphere.gltf"></a-asset-item> 
+        <a-asset-item id="Oxygen" src="./assets/torus.gltf"></a-asset-item> 
        </a-assets>
-
-       <a-marker id="oxygen" type="pattern" url="./assets/pattern-card-O.patt">
-        <a-image src="assets/card-O.png" rotation="-90 0 0" width: 1.5; height: 1.5></a-image>
-        <a-entity position="0 1 0" rotation="0 90 0" scale="0.2 0.2 0.2"
+       <a-marker id="oxy" type="pattern" url="./assets/pattern-card-O.patt">
+        <a-image src="./assets/pattern-card-O.png" rotation="-90 0 0"  width: 1.2; height: 1.2></a-image>
+        <a-entity position="0 1 0" scale="0.3 0.3 0.3"
         gltf-model="#Oxygen"
-        animation__rotate = "property: rotation; dur: 5000; easing: linear; dir: normal; from:0 0 0; to: 0 0 360; loop: true;" >
+        animation__rotate = "property: rotation; dur: 10000; easing: linear; dir: normal; from:0 0 0; to: 0 0 360; loop: true;" >
 
         </a-entity>
-    </a-marker>
-		
-		
-        
-
+        </a-marker>
+    
+    
        
         <a-entity camera></a-entity>
         </a-scene>
