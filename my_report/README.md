@@ -21,6 +21,9 @@
 
 
 # 2nd Deliverable
+Η διαδικασία ξεκίνησε με την κατανόηση του θέματος. Αφού συγκέντρωσα όλα τα αρχεία σε ένα φάκελο ξεκίνησα την μετατροπή τους στις κατάλληλες μορφές της εικόνες σε άρχεια png και την δημιουργία patterns. Αφού είχα έτοιμα τα αρχεία που χρειαζόταν μετέφερα τον φάκελο μέσα στον φάκελο με τα assets. Για την δημιουργια του υδρογόνου του οξυγόνου και του νερού χρησιμοποίησα το blenter και έκανα τα μοντέλα μορφή gltf
+
+Όλα αυτά γινόταν παράλληλα με την δημιουργία του κώδικα oπου βρήκα κάποια κομμάτια του στο διαδίκτυο ενώ αλλα δημιουργήθηκαν σε συνεργασία με κάποιους συναδέλφους
 
 
 # 3rd Deliverable 
@@ -34,3 +37,5 @@ https://www.npmjs.com/package/aframe-particle-system-component
 https://medium.com/@fauziali/creating-web-based-augmented-reality-with-just-10-lines-of-html-code-for-beginners-ar-js-d62ef596eab
 https://aframe.io/docs/1.3.0/primitives/a-cylinder.html
 https://www.w3schools.com/colors/colors_picker.asp
+https://ar-js-org.github.io/AR.js/three.js/examples/marker-training/examples/generator.html
+https://jpg2png.com/
