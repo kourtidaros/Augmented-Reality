@@ -39,3 +39,9 @@ https://aframe.io/docs/1.3.0/primitives/a-cylinder.html
 https://www.w3schools.com/colors/colors_picker.asp
 https://ar-js-org.github.io/AR.js/three.js/examples/marker-training/examples/generator.html
 https://jpg2png.com/
+https://aframe.io/docs/1.3.0/primitives/a-cylinder.html
+https://www.w3schools.com/colors/colors_picker.asp
+https://www.npmjs.com/package/aframe-particle-system-component?fbclid=IwAR29byyScaq9VeemROUoqlyEo1IgXibOoHF4263zTlIQrlOsq6tDzfc1bUc
+https://aframe.io/docs/1.3.0/components/gltf-model.html#sidebar~
+https://threejs.org/docs/#examples/en/loaders/GLTFLoader
+https://medium.com/chialab-open-source/build-your-location-based-augmented-reality-web-app-c2442e716564
